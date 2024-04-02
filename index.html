@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .html{
+            height: 300vh;
+        }
+        #messages{
+            margin-top: -400px;
+            text-align: center;
+        }
+        #messages:hover{
+
+        }
+        .greets{
+            margin-top: 300px;
+            text-align: center;
+            animation: rainbow 5s infinite;
+            animation-duration: 3s;
+        }
+
+        @keyframes rainbow {
+            0%{
+                color: blue;
+            }
+            10%{
+                color: orange;
+            }
+            20%{
+                color: red;
+            }
+            50%{
+                color: violet;
+            }
+            100%{
+                color: yellow;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <section class="html">
+        <div class="message">
+            <h1 class="greets">HAPPY Birthday!</h1>
+            <a href="#messages" id="">Click To See Message</a>
+        </div>
+    </section>
+    <section id="messages">
+        <p id="messages">May your birthday be the start of a year filled with good luck, good health, and much happiness. Cheers!</p>
+    </section>
+</body>
+</html>
